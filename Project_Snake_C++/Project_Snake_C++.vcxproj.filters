@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SnakeGame">
+      <UniqueIdentifier>{82562a3c-8104-4934-b868-98ec427b2590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SnakeGame\third_party/">
+      <UniqueIdentifier>{55b1967a-b877-421b-985a-762173842583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SnakeGame\assets/">
+      <UniqueIdentifier>{5bc118fc-d721-42a4-9850-b0a0cf769c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SnakeGame\core">
+      <UniqueIdentifier>{e7e50989-d29f-448c-bca9-e0c826bf7ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SnakeGame\interfaces">
+      <UniqueIdentifier>{8624958e-3c27-40ba-915b-70727d6056e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SnakeGame\factory">
+      <UniqueIdentifier>{a0f071d8-6e05-4730-9404-c58e55bea436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SnakeGame\states">
+      <UniqueIdentifier>{57afc18e-c9d7-4f37-9e4f-bd66c7ffba5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SnakeGame\effects">
+      <UniqueIdentifier>{02479d5a-15d9-4096-a209-cfbfdd97caef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.h\Game.cpp">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioPlayer.cpp">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaderborad.cpp">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodFactory.cpp">
+      <Filter>Source Files\SnakeGame\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\SnakeGame\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClCompile>
+    <ClCompile Include="LeaderboardState.cpp">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsState.cpp">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="leaderborad.json">
+      <Filter>Source Files\SnakeGame</Filter>
+    </None>
+    <None Include="Settings.json">
+      <Filter>Source Files\SnakeGame</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="flags.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceHolder.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game2.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPlayer.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaderborad.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>Source Files\SnakeGame\core</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>Source Files\SnakeGame\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdatable.h">
+      <Filter>Source Files\SnakeGame\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameState.h">
+      <Filter>Source Files\SnakeGame\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IFood.h">
+      <Filter>Source Files\SnakeGame\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodFactory.h">
+      <Filter>Source Files\SnakeGame\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Source Files\SnakeGame\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClInclude>
+    <ClInclude Include="LeaderboardState.h">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsState.h">
+      <Filter>Source Files\SnakeGame\states</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
