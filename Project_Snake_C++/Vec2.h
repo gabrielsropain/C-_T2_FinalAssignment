@@ -34,4 +34,4 @@ struct Vec2 {
 	}
 };
 
-using Vec2i = Vec2<int>;
+using Vec2i = Vec2<int>; //Alias for using the class in a shorter syntax.
